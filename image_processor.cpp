@@ -31,7 +31,7 @@ int main(int argc, char** argv) {
 
         bitmap_io.Write(output_file, image);
     } catch (const std::exception& e) {
-        std::cerr << "Error occured: " << e.what() << std::endl;
+        std::cerr << "Error occurred: " << e.what() << std::endl;
         return 1;
     }
 
